@@ -1,0 +1,147 @@
+
+.item-title{
+  font-weight: 600;
+}
+.item-image{
+  border-radius: 8px;
+}
+
+.page-title{
+
+  padding-left: 10px;
+  font-weight: bold;
+}
+.notification-badge{
+  padding: 5px;
+    border-radius: 13px;
+}
+.desc{
+  color: #5B687B;
+}
+.tab-icon{
+  color: #B6C2D2;
+}
+
+
+
+
+.paragraph{
+
+  text-align: center;
+  color: #707B7C;
+}
+
+.user-name{
+  font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+}
+
+.title{
+  color: #000;
+}
+
+
+
+.img{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.icon-edit{
+  padding-top: 16px;
+}
+
+.user-thumb-main{
+  height: 100%;
+}
+.user-thumb{
+  position: absolute;
+    bottom: 4%;
+}
+.chat-content{
+  background: #F4F6F9;
+    border-radius: 15px;
+    padding: 15px;
+}
+.chat-text{
+ 
+font-size: 15px !important;
+width: 70%;
+display: inline-block;
+color: #06152B !important;
+}
+.text-time{
+  display: inline-block;
+
+font-weight: 500;
+font-size: 12px;
+text-align: right;
+color: #5B687B;
+width: 27%;
+}
+.header-shadow{
+  box-shadow: 3px 11px 15px -3px #f1f5f6;
+}
+
+
+.input-area {
+  position: absolute;
+  bottom:  4px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: white;
+  form {
+    display: flex;
+    height: 100%;
+
+    ion-input {
+      width: 82%;
+      border: none;
+      padding: 5px 10px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: 'Titillium Web', sans-serif;
+      background: inherit;
+      
+    }
+    button {
+      width: 18%;
+      border: none;
+      color: #fff;
+      opacity: 0.9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      background: inherit;
+      
+    }
+  }
+}
+.mic-attach-main{
+  height: 100%;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    
+}
+.input-message{
+  width: 79%;
+  display: inline-block;
+}
+.mic-attach-icons{
+  display: inline-block;
+  background: #F4F6F9;
+    border-radius: 15px;
+    padding: 4px;
+    color: #0C5EDA;
+}
+.space-between{
+  width: 15px;
+}
